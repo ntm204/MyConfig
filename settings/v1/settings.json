@@ -1,0 +1,167 @@
+{
+  // === Workbench & Giao diện ===
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "workbench.sideBar.location": "left",
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "breadcrumbs.enabled": false,
+  "window.zoomLevel": 1,
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "window.commandCenter": false,
+
+  // === Editor ===
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 2.5,
+  "editor.letterSpacing": 1,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+
+  // === Tùy chỉnh màu sắc ===
+  "workbench.colorCustomizations": {
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000",
+
+    // "tree.indentGuidesStroke": "#B8BB26",
+    "editorGroupHeader.tabsBorder": "#00000000",
+    "sideBar.border": "#00000000",
+    "statusBar.border": "#00000000",
+    "activityBar.border": "#00000000",
+    "titleBar.border": "#00000000",
+    "panel.border": "#504942",
+    "terminal.border": "#00000000",
+    "scrollbar.shadow": "#00000000",
+    "scrollbarSlider.background": "#00000000",
+    "scrollbarSlider.hoverBackground": "#00000000",
+    "scrollbarSlider.activeBackground": "#00000000",
+    "titleBar.activeBackground": "#00000066",
+    "titleBar.inactiveBackground": "#00000033",
+    "editor.background": "#00000080",
+    "panel.background": "#00000066",
+    "panelTitle.activeBackground": "#00000066",
+    "panelTitle.inactiveBackground": "#00000033",
+    "tab.activeBackground": "#00000066",
+    "tab.inactiveBackground": "#00000033",
+    "tab.unfocusedActiveBackground": "#00000033",
+    "tab.unfocusedInactiveBackground": "#00000022",
+    "editorGroupHeader.tabsBackground": "#00000033",
+    "breadcrumbs.background": "#00000000",
+    "debugToolBar.background": "#00000033",
+    "notification.background": "#00000099",
+    "notification.toast.background": "#00000099",
+    "commandCenter.background": "#00000066",
+    "dropdown.background": "#00000088",
+    "input.background": "#00000000",
+    "quickInput.background": "#00000088",
+    "menu.background": "#00000088",
+    "editorGroup.border": "#d38e4d",
+    "editorGroupHeader.noTabsBackground": "#00000000",
+    "editorPane.background": "#00000000",
+    "peekView.border": "#00000000",
+    "peekViewEditor.background": "#00000033",
+    "peekViewResult.background": "#00000033",
+    "peekViewTitle.background": "#00000033",
+    "terminal.dropBackground": "#00000022",
+    "sideBarSectionHeader.background": "#00000033",
+    "statusBarItem.remoteBackground": "#00000066",
+    "statusBarItem.prominentBackground": "#00000066",
+    "widget.shadow": "#00000000",
+    "terminal.background": "#00000000",
+  },
+
+  // === Editor Behavior ===
+  "editor.stickyScroll.enabled": false,
+  "editor.codeLens": false, // Debug off
+  "editor.matchBrackets": "never",
+  "editor.lineNumbers": "on",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.snippetSuggestions": "top",
+  "editor.minimap.enabled": false,
+
+  // === Editor Hiển thị & Scroll ===
+  "editor.lightbulb.enabled": "off",
+  "editor.renderWhitespace": "all",
+  "editor.renderLineHighlight": "none",
+  "editor.guides.indentation": false,
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.scrollbar.verticalScrollbarSize": 5,
+  "editor.scrollbar.horizontalScrollbarSize": 5,
+  "editor.scrollBeyondLastLine": false,
+  "editor.wordWrap": "on",
+  "scm.diffDecorations": "none",
+
+  // Highlight & Token customization
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  // === Files ===
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.autoSave": "afterDelay",
+
+  // === Extensions ===
+  "update.mode": "none",
+  "extensions.ignoreRecommendations": true,
+
+  // === Editor Formatting ===
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+
+  // === Code Runner ===
+  "code-runner.runInTerminal": true,
+
+  // === Settings Cycler ===
+  "settings.cycle": [
+    {
+      "id": "lineNumbers",
+      "overrideWorkspaceSettings": true,
+      "values": [
+        { "editor.lineNumbers": "off" },
+        { "editor.lineNumbers": "on" }
+      ]
+    }
+  ],
+
+  // === Import Preferences ===
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+
+  // === Terminal ===
+  "terminal.integrated.scrollbar.visible": false,
+
+  // === Telemetry & Bảo mật ===
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.gpuAcceleration": "off",
+  "window.systemColorTheme": "dark",
+  "window.autoDetectColorScheme": false,
+  "window.controlsStyle": "custom",
+  "window.titleBarStyle": "custom"
+}

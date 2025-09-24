@@ -1,0 +1,121 @@
+{
+  // === Workbench & Giao diện ===
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.sideBar.location": "left",
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "breadcrumbs.enabled": false,
+  "window.zoomLevel": 1,
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "window.commandCenter": false,
+
+  // === Editor ===
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 2.5,
+  "editor.letterSpacing": 1,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+
+  // === Tùy chỉnh màu sắc ===
+  "workbench.colorCustomizations": {
+    // "tree.indentGuidesStroke": "#dd6c6c",
+    // "panel.border": "#754686",
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000"
+    // "quickInput.foreground": "#0000",
+    // "quickInput.background": "#9c9393",
+  },
+
+  // === Editor Behavior ===
+  "editor.stickyScroll.enabled": false,
+  "editor.codeLens": false, // Debug off
+  "editor.matchBrackets": "never",
+  "editor.lineNumbers": "on",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.snippetSuggestions": "top",
+  "editor.minimap.enabled": false,
+
+  // === Editor Hiển thị & Scroll ===
+  "editor.lightbulb.enabled": "off",
+  "editor.renderWhitespace": "all",
+  "editor.renderLineHighlight": "none",
+  "editor.guides.indentation": false,
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.scrollbar.verticalScrollbarSize": 5,
+  "editor.scrollbar.horizontalScrollbarSize": 5,
+  "editor.scrollBeyondLastLine": false,
+  "editor.wordWrap": "on",
+  "scm.diffDecorations": "none",
+
+  // Highlight & Token customization
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  // === Files ===
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.autoSave": "afterDelay",
+
+  // === Extensions ===
+  "update.mode": "none",
+  "extensions.ignoreRecommendations": true,
+
+  // === Editor Formatting ===
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+
+  // === Code Runner ===
+  "code-runner.runInTerminal": true,
+
+  // === Settings Cycler ===
+  "settings.cycle": [
+    {
+      "id": "lineNumbers",
+      "overrideWorkspaceSettings": true,
+      "values": [
+        { "editor.lineNumbers": "off" },
+        { "editor.lineNumbers": "on" }
+      ]
+    }
+  ],
+
+  // === Import Preferences ===
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+
+  // === Terminal ===
+  "terminal.integrated.scrollbar.visible": false,
+
+  // === Telemetry & Bảo mật ===
+  "telemetry.telemetryLevel": "off"
+}
