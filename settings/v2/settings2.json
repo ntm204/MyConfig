@@ -1,11 +1,15 @@
 {
-  "workbench.colorTheme": "One Dark Pro Night Flat",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "workbench.tree.enableStickyScroll": false,
   "workbench.layoutControl.enabled": false,
   "workbench.statusBar.visible": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.secondarySideBar.defaultVisibility": "visible",
+  "workbench.colorTheme": "One Dark Pro Mix",
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "workbench.panel.showLabels": false,
   "window.zoomLevel": 1,
   "window.commandCenter": false,
   "chat.commandCenter.enabled": false,
@@ -94,9 +98,9 @@
   },
 
   // === Extensions ===
-  "update.mode": "none",
+  "update.mode": "default",
   "extensions.ignoreRecommendations": true,
 
   // === Code Runner ===
-  "code-runner.runInTerminal": true
+  "code-runner.runInTerminal": true,
 }
