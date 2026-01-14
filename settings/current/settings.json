@@ -1,0 +1,143 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.statusBar.visible": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.secondarySideBar.defaultVisibility": "visible",
+  "workbench.colorTheme": "One Dark Pro Night Flat",
+  "workbench.activityBar.location": "hidden",
+  "workbench.panel.showLabels": false,
+  "window.zoomLevel": 1,
+  "window.commandCenter": false,
+  "chat.commandCenter.enabled": false,
+
+  // === Explorer ===
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.confirmDelete": true,
+
+  // === Editor ===
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 2.25,
+  "editor.letterSpacing": 1,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "block",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+
+  // === Color ===
+  "workbench.colorCustomizations": {
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000",
+    "focusBorder": "#0000",
+    "input.border": "#0000",
+    "scrollbarSlider.background": "#75468655",
+    "editorCursor.foreground": "#ffffff",
+    // "scrollbarSlider.hoverBackground": "#75468677",
+    // "scrollbarSlider.activeBackground": "#75468699",
+    // "dropdown.border": "#0000",
+    // "selection.background": "#75468655",
+    // "button.border": "#0000",
+    "tab.border": "#0000",
+    // "tab.activeBorder": "#754686",
+    "tab.inactiveBackground": "#0000",
+    "tab.activeBackground": "#0000",
+    "sideBar.border": "#0000"
+    // "editorGroup.border": "#0000",
+    // "editorGroupHeader.tabsBorder": "#0000",
+    // "statusBar.border": "#0000",
+    // "statusBar.noFolderBorder": "#0000",
+    // "titleBar.border": "#0000",
+    // "menu.border": "#0000",
+    // "editorWidget.border": "#754686",
+    // "inputOption.activeBorder": "#754686",
+    // "list.focusOutline": "#754686",
+    // "list.activeSelectionForeground": "#0000",
+    // "list.activeSelectionBackground": "#75468655",
+    // "list.hoverForeground": "#0000",
+    // "list.hoverBackground": "#75468633",
+    // "list.inactiveSelectionForeground": "#0000",
+    // "list.inactiveSelectionBackground": "#75468622",
+    // "tree.indentGuidesStroke": "#75468655",
+    // "tree.indentGuidesStroke": "#dd6c6c",
+    // "panel.border": "#754686",
+    // "activityBar.border": "#0000", // ẩn viền thanh bên trái
+    // "panel.border": "#0000" // ẩn viền khu vực terminal dưới
+    // "quickInput.foreground": "#0000",
+    // "quickInput.background": "#9c9393",
+  },
+
+  // === Editor Behavior ===
+  "editor.stickyScroll.enabled": false,
+  "editor.codeLens": false, // Debug off
+  "editor.matchBrackets": "never",
+  "editor.lineNumbers": "on",
+  "editor.tabSize": 4,
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+
+  // === Editor Display & Scroll ===
+  "editor.lightbulb.enabled": "off",
+  // "editor.renderWhitespace": "all",
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": false,
+  "editor.renderLineHighlight": "none",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.scrollbar.verticalScrollbarSize": 5,
+  "editor.scrollbar.horizontalScrollbarSize": 5,
+  "editor.scrollBeyondLastLine": false,
+  "editor.wordWrap": "on",
+
+  // === SCM (Source Control) ===
+  "scm.diffDecorations": "all",
+  "scm.diffDecorationsGutterVisibility": "always",
+
+  // === Editor Formatting ===
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+  "[liquid]": {
+    "editor.defaultFormatter": "Shopify.theme-check-vscode"
+  },
+
+  // === Files ===
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.autoSave": "afterDelay",
+
+  // === Highlight & Token customization ===
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  // === Extensions ===
+  "update.mode": "default",
+  "extensions.ignoreRecommendations": true,
+
+  // === Code Runner ===
+  "code-runner.runInTerminal": true,
+
+  // === Custom Css and Js ===
+  "vscode_custom_css.imports": [
+    "file:///Users/nguyentuanminh/Documents/settings-vscode/index.js"
+  ]
+}
