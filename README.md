@@ -79,8 +79,6 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/n3r4zzurr0/svg-spinners/main/svg-css/90-ring-with-bg.svg" width="24" />
-  <br>
   Crafted by <b>Soren Nguyen</b>
 </p>
 
