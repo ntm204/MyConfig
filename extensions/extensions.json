@@ -1,22 +1,12 @@
 {
-  "v1": [
+  "minimal": [
     "zhuangtongfa.Material-theme",
     "PKief.material-icon-theme",
     "esbenp.prettier-vscode",
     "ms-vscode.cpptools",
-    "Gruntfuggly.settings-cycler",
-    "vibrancy-continued",
-    "manasxx.background-cover",
-    "johnpapa.vscode-peacock"
+    "vibrancy-continued"
   ],
-  "v2": [
-    "zhuangtongfa.Material-theme",
-    "PKief.material-icon-theme",
-    "esbenp.prettier-vscode",
-    "ms-vscode.cpptools",
-    "Gruntfuggly.settings-cycler"
-  ],
-  "v3": [
+  "advanced": [
     "GlennRaya.custom-css",
     "apility.beautify-blade",
     "esbenp.prettier-vscode",

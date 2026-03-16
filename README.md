@@ -1,55 +1,87 @@
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=1000&color=98D9D9&center=true&vCenter=true&width=600&lines=VSCode+Config+v.Next;The+Minimalist+Wizard+Suite;Designed+for+Efficiency" alt="Typing SVG" />
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/n3r4zzurr0/svg-spinners/main/svg-css/90-ring-with-bg.svg" width="48" alt="Animated Spinner"/>
+  <em>"Minimalist isn't lack of something, it's the perfect amount of everything."</em>
 </p>
 
-# VSCode Config Review
+[**V3.0 Stable**](https://github.com/nguyentuanminh) • [**Setup Guide**](./README-vi.md) • [**Premium Fonts**](./MyFonts)
+
+---
+
+### ✦ Showcase ✦
 
 <table align="center">
   <tr>
     <td align="center">
-      <a href="imgs/v1.png" target="_blank">
-        <img src="imgs/v1.png" width="300" alt="v1"/>
-      </a>
-      <br><b>v1: Vibrancy</b>
+      <img src="imgs/minimal.png" width="400" alt="minimal"/>
+      <br>
+      <code>MINIMAL SUITE</code>
     </td>
     <td align="center">
-      <a href="imgs/v2.png" target="_blank">
-        <img src="imgs/v2.png" width="300" alt="v2"/>
-      </a>
-      <br><b>v2: Minimal</b>
-    </td>
-    <td align="center">
-      <a href="imgs/v3.png" target="_blank">
-        <img src="imgs/v3.png" width="300" alt="v3"/>
-      </a>
-      <br><b>v3: Custom CSS/JS</b>
+      <img src="imgs/advanced.png" width="400" alt="advanced"/>
+      <br>
+      <code>ADVANCED SUITE</code>
     </td>
   </tr>
 </table>
 
-## Tổng quan
+<br>
 
-Repo cung cấp các cấu hình VSCode đẹp, tối ưu cho macOS:
+---
 
-- **v1**: Hiệu ứng mờ (vibrancy), tuỳ chỉnh sâu.
-- **v2**: Tối giản, tinh tế, tập trung vào trải nghiệm code.
-- **v3**: Tuỳ biến giao diện sâu bằng CSS/JS, cần extension đặc biệt.
+### ✦ The Philosophies ✦
 
-> Xem hướng dẫn chi tiết cho v3 tại đây: [Hướng dẫn cấu hình v3](./settings/v3/README-vi.md)
+<div align="center">
 
-| Thiết lập chính        | v1 (Vibrancy)               | v2 (Tối giản)               | v3 (Custom CSS/JS)               |
-| ---------------------- | --------------------------- | --------------------------- | -------------------------------- |
-| Giao diện              | One Dark Pro, Material Icon | One Dark Pro, Material Icon | React Theme, Material Icon       |
-| Hiệu ứng mờ (vibrancy) | Có (đẹp nhất trên macOS)    | Không                       | Tuỳ biến sâu (CSS/JS)            |
-| Font                   | JetBrains Mono              | JetBrains Mono              | Geist Mono, JetBrains Mono       |
-| Formatter              | Prettier, cpptools          | Prettier, cpptools          | Prettier, Intelephense, cpptools |
-| Tuỳ chỉnh giao diện    | Rất nhiều                   | Đủ dùng, gọn                | Toàn diện qua CSS/JS             |
+| MINIMAL | ADVANCED |
+| :--- | :--- |
+| **Focus** • Pure performance | **Aesthetics** • Glassmorphism |
+| **Effect** • Smooth Cursor Trail | **Effect** • Deep UI Customization |
+| **Font** • JetBrains Mono | **Font** • MonoLisa / Dank Mono |
+| `index.js` driven | `CSS/JS Loader` driven |
 
-## Font đề xuất
+</div>
 
-- **JetBrains Mono:** [Tải tại đây](https://www.jetbrains.com/lp/mono/)
-- **Geist Mono:** [Tải tại đây](https://vercel.com/font/geist-mono)
+<br>
 
-## Extensions nên cài cho từng phiên bản
+---
 
-> Xem chi tiết và copy nhanh tại [`extensions/extensions.json`](./extensions/extensions.json)
+### ✦ Installation ✦
+
+<div align="left">
+
+1.  **Select the Edition:** 
+    *   Choose [`settings/minimal`](./settings/minimal) for high-speed coding.
+    *   Choose [`settings/advanced`](./settings/advanced) for visual perfection.
+2.  **Apply the Configuration:** Copy `settings.json` content to your VSCode.
+3.  **The Integration:**
+    *   Install **Custom CSS & JS Loader**.
+    *   Inject the provided `index.js` or `custom.css` paths.
+    *   `Cmd+Shift+P` ➜ `Enable Custom CSS and JS`.
+
+</div>
+
+<br>
+
+---
+
+### ✦ Core Artifacts ✦
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Font-MonoLisa-98D9D9?style=for-the-badge&logo=font-awesome" />
+  <img src="https://img.shields.io/badge/UI-React_Theme-FFB86C?style=for-the-badge&logo=visual-studio-code" />
+  <img src="https://img.shields.io/badge/Icons-Material-BD93F9?style=for-the-badge&logo=material-design" />
+  <img src="https://img.shields.io/badge/OS-macOS_Optimized-white?style=for-the-badge&logo=apple" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/n3r4zzurr0/svg-spinners/main/svg-css/90-ring-with-bg.svg" width="24" />
+  <br>
+  Crafted by <b>Soren Nguyen</b>
+</p>
+
+</div>
