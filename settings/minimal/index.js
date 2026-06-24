@@ -1,18 +1,23 @@
-// ===== CẤU HÌNH =====
+// ===== CONFIGURATION =====
 const CONFIG = {
-  color: "default", // Màu vệt con trỏ (hoặc "default" để lấy từ theme)
-  style: "line", // Kiểu: "line" hoặc "block"
-  trailLength: 8, // Độ dài vệt (8-12 là tối ưu)
-  pollingRate: 500, // Tần suất kiểm tra con trỏ (ms)
+  color: "default",
+  /* Cursor trail color (
+    "workbench.colorCustomizations": {
+       "editorCursor.background": "#A052FF",
+    }
+  */
+  style: "line", // Style: 'line' or 'block'
+  trailLength: 8, // Trail length (8-12 is optimal)
+  pollingRate: 500, // Cursor polling rate (ms)
   shadow: {
     enabled: false,
     blur: 15,
   },
 };
 
-// ===== HẰNG SỐ =====
+// ===== CONSTANTS =====
 const DEFAULTS = {
-  color: "#A052FF",
+  color: "#00FFFF",
   size: 3,
   sizeYMultiplier: 2.2,
   smoothX: 0.42,
@@ -21,7 +26,7 @@ const DEFAULTS = {
   cursorClass: "cursor",
 };
 
-// ===== TẠO HIỆU ỨNG VẾT CON TRỎ =====
+// ===== CREATE CURSOR TRAIL EFFECT =====
 function createTrail(options) {
   const totalParticles = options?.length || 20;
   const particlesColor = options?.color || DEFAULTS.color;
@@ -150,7 +155,7 @@ function createTrail(options) {
   return { updateParticles, move, updateSize, updateCursorSize };
 }
 
-// ===== QUẢN LÝ CURSOR HANDLER =====
+// ===== CURSOR HANDLER MANAGER =====
 async function createCursorHandler(handlers) {
   const editor = await waitForEditor();
   handlers?.onStarted?.(editor);
@@ -193,7 +198,7 @@ async function createCursorHandler(handlers) {
     state.updateHandlers.push(update);
   };
 
-  // Polling để phát hiện cursor mới/bị xóa
+  // Polling to detect new/removed cursors
   setInterval(() => {
     const currentIds = [];
     let visibleCount = 0;
@@ -238,7 +243,7 @@ async function createCursorHandler(handlers) {
     requestAnimationFrame(updateLoop);
   };
 
-  // Theo dõi thay đổi kích thước editor
+  // Monitor editor size changes
   new ResizeObserver(() => {
     handlers?.onEditorSizeUpdated?.(editor.clientWidth, editor.clientHeight);
   }).observe(editor);
@@ -257,7 +262,7 @@ async function waitForEditor() {
   return editor;
 }
 
-// ===== KHỞI TẠO HIỆU ỨNG =====
+// ===== INITIALIZE EFFECTS =====
 let cursorCanvas, trailHandle;
 
 createCursorHandler({
