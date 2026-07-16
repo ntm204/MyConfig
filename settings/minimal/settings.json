@@ -25,7 +25,7 @@
   "editor.letterSpacing": 1,
   "editor.cursorBlinking": "expand",
   "editor.cursorStyle": "line-thin",
-  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
   "editor.smoothScrolling": true,
@@ -93,8 +93,5 @@
 
   // === Code Runner ===
   "code-runner.runInTerminal": true,
-  "git.enableSmartCommit": true,
-  "security.workspace.trust.enabled": true,
   "workbench.panel.showLabels": false,
-  "chat.viewSessions.orientation": "stacked"
 }
